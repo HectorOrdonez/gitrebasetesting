@@ -3,6 +3,13 @@
 class King
 {
     /**
+     * @var
+     */
+    protected $castle;
+
+    protected $kingdom;
+
+    /**
      * @return mixed
      */
     public function getCastle()
@@ -17,13 +24,6 @@ class King
     {
         $this->castle = $castle;
     }
-
-    /**
-     * @var
-     */
-    protected $castle;
-
-    protected $kingdom;
 
     /**
      * @return mixed
