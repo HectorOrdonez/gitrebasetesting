@@ -1,7 +1,13 @@
 <?php
 
+/**
+ * Class Armor
+ */
 class Armor
 {
+    /**
+     * @var
+     */
     protected $defense;
 
     /**
@@ -19,6 +25,4 @@ class Armor
     {
         $this->defense = $defense;
     }
-
-
 }

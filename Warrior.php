@@ -1,7 +1,13 @@
 <?php
 
+/**
+ * Class Warrior
+ */
 class Warrior
 {
+    /**
+     * @var string
+     */
     protected $weapon;
 
     /**
