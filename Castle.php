@@ -13,7 +13,7 @@ class Castle
     /**
      * @var string
      */
-    protected $name;
+    protected $castleName;
 
     /**
      * @var Warrior[]
@@ -85,17 +85,17 @@ class Castle
     /**
      * @return string
      */
-    public function getName()
+    public function getCastleName()
     {
-        return $this->name;
+        return $this->castleName;
     }
 
     /**
-     * @param string $name
+     * @param string $castleName
      */
-    public function setName($name)
+    public function setCastleName($castleName)
     {
-        $this->name = $name;
+        $this->castleName = $castleName;
     }
 
     /**
