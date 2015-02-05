@@ -2,6 +2,27 @@
 
 class King
 {
+    /**
+     * @return mixed
+     */
+    public function getCastle()
+    {
+        return $this->castle;
+    }
+
+    /**
+     * @param mixed $castle
+     */
+    public function setCastle(Castle $castle)
+    {
+        $this->castle = $castle;
+    }
+
+    /**
+     * @var
+     */
+    protected $castle;
+
     protected $kingdom;
 
     /**
@@ -19,6 +40,4 @@ class King
     {
         $this->kingdom = $kingdom;
     }
-
-
 }
