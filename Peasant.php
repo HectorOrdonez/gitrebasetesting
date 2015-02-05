@@ -4,6 +4,8 @@ class Peasant
 {
     protected $name;
 
+    protected $surname;
+
     protected $fields;
 
     /**
@@ -36,5 +38,21 @@ class Peasant
     public function setName($name)
     {
         $this->name = $name;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSurname()
+    {
+        return $this->surname;
+    }
+
+    /**
+     * @param mixed $surname
+     */
+    public function setSurname($surname)
+    {
+        $this->surname = $surname;
     }
 }
