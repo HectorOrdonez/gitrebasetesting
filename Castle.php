@@ -2,6 +2,11 @@
 
 class Castle
 {
+    /**
+     * @var Warrior[]
+     */
+    protected $warriors;
+
     protected $wallHeight;
 
     /**
@@ -20,5 +25,19 @@ class Castle
         $this->wallHeight = $wallHeight;
     }
 
+    /**
+     * @return Warrior[]
+     */
+    public function getWarriors()
+    {
+        return $this->warriors;
+    }
 
+    /**
+     * @param Warrior $warrior
+     */
+    public function addWarrior(Warrior $warrior)
+    {
+        $this->warriors[] = $warrior;
+    }
 }
