@@ -25,6 +25,10 @@ class Castle
      */
     protected $towers;
 
+    public function test(){
+        
+    }
+
     /**
      * @return mixed
      */
