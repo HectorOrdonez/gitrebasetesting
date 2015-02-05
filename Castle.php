@@ -30,6 +30,11 @@ class Castle
      */
     protected $towers;
 
+    /**
+     * @var Peasant[]
+     */
+    protected $peasants;
+
     public function test(){
         
     }
@@ -112,5 +117,21 @@ class Castle
     public function setKing($king)
     {
         $this->king = $king;
+    }
+
+    /**
+     * @return Peasant[]
+     */
+    public function getPeasants()
+    {
+        return $this->peasants;
+    }
+
+    /**
+     * @param Peasant $peasant
+     */
+    public function addPeasant(Peasant $peasant)
+    {
+        $this->peasants[] = $peasant;
     }
 }
