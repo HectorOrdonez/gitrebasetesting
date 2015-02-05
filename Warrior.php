@@ -5,6 +5,11 @@ class Warrior
     protected $weapon;
 
     /**
+     * @var Armor
+     */
+    protected $armor;
+
+    /**
      * @return mixed
      */
     public function getWeapon()
@@ -20,5 +25,19 @@ class Warrior
         $this->weapon = $weapon;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getArmor()
+    {
+        return $this->armor;
+    }
 
+    /**
+     * @param mixed $armor
+     */
+    public function setArmor(Armor $armor)
+    {
+        $this->armor = $armor;
+    }
 }
