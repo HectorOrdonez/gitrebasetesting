@@ -6,7 +6,7 @@
 class Armor
 {
     /**
-     * @var
+     * @var int
      */
     protected $defense;
 
