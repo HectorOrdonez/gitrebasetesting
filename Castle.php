@@ -6,6 +6,11 @@
 class Castle
 {
     /**
+     * @var King
+     */
+    protected $king;
+
+    /**
      * @var string
      */
     protected $name;
@@ -91,5 +96,21 @@ class Castle
     public function setName($name)
     {
         $this->name = $name;
+    }
+
+    /**
+     * @return King
+     */
+    public function getKing()
+    {
+        return $this->king;
+    }
+
+    /**
+     * @param King $king
+     */
+    public function setKing($king)
+    {
+        $this->king = $king;
     }
 }
