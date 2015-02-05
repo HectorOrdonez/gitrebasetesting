@@ -1,7 +1,13 @@
 <?php
 
+/**
+ * Class Castle
+ */
 class Castle
 {
+    /**
+     * @var int
+     */
     protected $wallHeight;
 
     /**
@@ -19,6 +25,4 @@ class Castle
     {
         $this->wallHeight = $wallHeight;
     }
-
-
 }
