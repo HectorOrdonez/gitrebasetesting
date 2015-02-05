@@ -6,6 +6,11 @@
 class Castle
 {
     /**
+     * @var string
+     */
+    protected $name;
+
+    /**
      * @var Warrior[]
      */
     protected $warriors;
@@ -14,6 +19,11 @@ class Castle
      * @var int
      */
     protected $wallHeight;
+
+    /**
+     * @var
+     */
+    protected $towers;
 
     /**
      * @return mixed
@@ -30,11 +40,6 @@ class Castle
     {
         $this->towers = $towers;
     }
-
-    /**
-     * @var
-     */
-    protected $towers;
 
     /**
      * @return mixed
@@ -59,10 +64,6 @@ class Castle
     {
         return $this->warriors;
     }
-    /**
-     * @var string
-     */
-    protected $name;
 
     /**
      * @param Warrior $warrior
