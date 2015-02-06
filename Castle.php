@@ -85,6 +85,7 @@ class Castle
      */
     public function addWarrior(Warrior $warrior)
     {
+        // Adding mighty creature
         $this->warriors[] = $warrior;
     }
     
