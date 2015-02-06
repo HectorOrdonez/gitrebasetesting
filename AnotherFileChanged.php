@@ -1,4 +1,5 @@
 <?php
+echo 'I am a file1 Feature Text';
 echo 'I am a file1develop';
 echo 'I am a file2develop';
 echo 'I am a file3develop';
