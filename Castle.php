@@ -61,6 +61,8 @@ class Castle
     public function getWallHeight()
     {
         return $this->wallHeight;
+        return $this->wallHeight;
+        return $this->wallHeight;
     }
 
     /**
