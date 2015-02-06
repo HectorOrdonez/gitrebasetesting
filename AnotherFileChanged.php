@@ -20,6 +20,9 @@ echo 'I am a file2';
 echo 'I am a file3';
 echo 'I am a file4';
 
+echo 'Feature Text';
+echo 'Feature Text';
+
 // changes
 
 // more changes
