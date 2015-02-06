@@ -60,6 +60,9 @@ class Castle
      */
     public function getWallHeight()
     {
+        $this->wallHeight++;
+        // Walls must be high pls
+        $this->wallHeight = $this->wallHeight*3;
         return $this->wallHeight;
     }
 
