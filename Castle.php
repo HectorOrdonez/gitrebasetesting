@@ -60,6 +60,9 @@ class Castle
      */
     public function getWallHeight()
     {
+        $this->wallHeight++;
+        // Walls must be high pls
+        $this->wallHeight = $this->wallHeight*3;
         return $this->wallHeight;
     }
 
@@ -68,7 +71,7 @@ class Castle
      */
     public function setWallHeight($wallHeight)
     {
-        $this->wallHeight = $wallHeight;
+        $this->wallHeight = $wallHeight*2;
     }
 
     /**
@@ -76,7 +79,6 @@ class Castle
      */
     public function getWarriors()
     {
-        // A Warrior is a mighty creature
         return $this->warriors;
     }
 
@@ -85,7 +87,6 @@ class Castle
      */
     public function addWarrior(Warrior $warrior)
     {
-        // Adding mighty creature
         $this->warriors[] = $warrior;
     }
     
