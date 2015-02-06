@@ -8,7 +8,7 @@ class Castle
     /**
      * @var King
      */
-    protected $king;
+    protected $king;    
 
     /**
      * @var string
@@ -60,9 +60,6 @@ class Castle
      */
     public function getWallHeight()
     {
-        $this->wallHeight++;
-        // Walls must be high pls
-        $this->wallHeight = $this->wallHeight*3;
         return $this->wallHeight;
     }
 
@@ -71,7 +68,7 @@ class Castle
      */
     public function setWallHeight($wallHeight)
     {
-        $this->wallHeight = $wallHeight*2;
+        $this->wallHeight = $wallHeight;
     }
 
     /**
@@ -135,6 +132,8 @@ class Castle
      */
     public function addPeasant(Peasant $peasant)
     {
+        $peasant->setName('John'); // Because we like john
+
         $this->peasants[] = $peasant;
     }
 }
