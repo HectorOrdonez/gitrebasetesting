@@ -10,6 +10,8 @@ class Armor
      */
     protected $defense;
 
+    protected $name;
+
     /**
      * @return mixed
      */
@@ -25,4 +27,21 @@ class Armor
     {
         $this->defense = $defense;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @param mixed $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
 }
