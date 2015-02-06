@@ -8,7 +8,7 @@ class Castle
     /**
      * @var King
      */
-    protected $king;    
+    protected $king;
 
     /**
      * @var string
