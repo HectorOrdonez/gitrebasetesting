@@ -60,8 +60,6 @@ class Castle
      */
     public function getWallHeight()
     {
-        $this->wallHeight++;
-        $this->wallHeight = $this->wallHeight*2;
         return $this->wallHeight;
     }
 
@@ -78,6 +76,7 @@ class Castle
      */
     public function getWarriors()
     {
+        // A Warrior is a mighty creature
         return $this->warriors;
     }
 
